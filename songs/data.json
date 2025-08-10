@@ -1,0 +1,36 @@
+{
+  "albums": [
+    {
+      "folder": "Wadood%20Shaikh",
+      "title": "Wadood Shaikh",
+      "cover": "songs/Wadood%20Shaikh/cover.jpeg",
+      "songs": [
+        "Arcane Ma Meilleure Ennemie.mp3",
+        "For the First Time.mp3",
+        "headlock.mp3",
+        "Sundown - Stray.wav.mp3",
+        "The Lost Soul Down.mp3"
+      ]
+    },
+    {
+      "folder": "Anagha",
+      "title": "Anagha",
+      "cover": "songs/Anagha/cover.jpeg",
+      "songs": [
+        "Lorde - Perfect Places.mp3",
+        "The Walters - I Love You So.mp3",
+        "Ravyn Lenae - Love Me Not.mp3"
+      ]
+    },
+    {
+      "folder": "Faiz%20Khanzade",
+      "title": "Faiz Khanzade",
+      "cover": "songs/Faiz%20Khanzade/cover.jpeg",
+      "songs": [
+        "Freaks - Surf Curse.mp3",
+        "GOOD TIMES.mp3",
+        "sombr - back to friends.mp3"
+      ]
+    }
+  ]
+}
