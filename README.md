@@ -8,13 +8,13 @@ This app lets you choose different music folders, browse album covers, and play 
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://wadoodshaikh.github.io/webmusicplayer/)
 
-🔗 **Live Site:** [https://yourusername.github.io/web-music-player](https://wadoodshaikh.github.io/webmusicplayer)
+🔗 **Live Site:** [https://wadoodshaikh.github.io/webmusicplayer](https://wadoodshaikh.github.io/webmusicplayer)
 
 ---
 
 ## 📸 Preview
 
-![Music Player Screenshot](images/screenshot.png)
+![Music Player Screenshot](images/screenshot.PNG)
 
 ---
 
