@@ -1,0 +1,171 @@
+body {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.main {
+  gap: 8px;
+  padding: 10px;
+}
+
+.left-section {
+  background: #121212;
+  padding: 10px;
+  border-radius: 8px;
+  width: 25vw;
+  height: 43.5vw;
+}
+.right-section {
+  background: #121212;
+  padding: 10px;
+  border-radius: 8px;
+  width: 75vw;
+  height: 43.5vw;
+  position: relative;
+}
+
+.library-section {
+  padding: 5px 10px;
+}
+
+.allSongs ul {
+  padding: 10px 14px;
+  margin: 10px 0;
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  height: 80vh;
+}
+.allSongs ul li {
+  border-radius: 8px;
+  padding: 8px;
+  background-color: #1f1f1f;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.allSongs ul li:hover {
+  background-color: #3d3d3d;
+}
+
+.song-details p {
+  width: 50%;
+}
+
+.songs-card {
+  justify-content: space-between;
+}
+.burgerbtn{
+  cursor: pointer;
+}
+
+.your-playlist {
+  padding: 5px 10px;
+  justify-content: space-between;
+}
+
+.playlist-align {
+  height: 71vh;
+  width: 66vw;
+  overflow: auto;
+  margin: 0 auto;
+}
+
+.playlist-folder {
+  padding: 10px 0;
+}
+
+.playlist-card {
+  padding: 10px;
+  background-color: #1f1f1f;
+  border-radius: 8px;
+  margin: 7px 4px;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 8em;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.playlist-card:hover {
+  background-color: #3d3d3d;
+}
+
+.playlist-card p {
+  width: 100%;
+  font-size: 16px;
+  text-align: center;
+}
+.playlist-card img {
+  height: 128px;
+  /* width: 126px; */
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.control-panel {
+  position: absolute;
+  bottom: 10px;
+  height: 76px;
+  width: 70vw;
+  border-radius: 40px;
+  background-color: #1f1f1f;
+  justify-content: center;
+}
+
+.control-panel-details {
+  justify-content: space-evenly;
+  gap: 106px;
+}
+
+.time-duration {
+  justify-content: space-between;
+}
+
+.currentTime {
+  width: 106px;
+}
+.seekbar {
+  width: 93%;
+  margin: auto;
+  position: relative;
+}
+.seekbar hr {
+  height: 4px;
+  background-color: white;
+  border-radius: 40px;
+  cursor: pointer;
+}
+.seekbar-control {
+  position: relative;
+}
+
+.seekbar-ball {
+  width: 12px;
+  height: 12px;
+  background-color: white;
+  border-radius: 50px;
+  position: absolute;
+  left: 0px;
+  bottom: -4px;
+  transition: all 0.2s ease-in;
+}
+
+.songdetails {
+  width: 16em;
+  text-align: center;
+}
+
+/* All toggle classes */
+
+.control-panel-toggle{
+    width: 72vw;
+    margin: 0 10em;
+}
+.left-section-toggle{
+  left: 0;
+}
+.right-section-toggle{
+  width: 97vw;
+}

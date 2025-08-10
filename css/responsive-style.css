@@ -1,0 +1,530 @@
+@media (max-width: 2560px) {
+  .burgerbtn {
+    display: none;
+  }
+  .left-section {
+    width: 26vw;
+    height: 68em;
+  }
+  .right-section {
+    width: 86vw;
+    height: 68em;
+  }
+  .control-panel {
+    width: 74vw;
+    bottom: 26px;
+    height: 8em;
+    justify-content: space-evenly;
+  }
+  .allSongs ul {
+    height: 70vh;
+  }
+  .library-section h2 {
+    font-size: 4em;
+  }
+  .your-playlist h2 {
+    font-size: 4em;
+  }
+  .playlist-card {
+    width: 18em;
+    height: 22em;
+  }
+  .playlist-card img {
+    height: 86%;
+  }
+  .playlist-card p {
+    font-size: 32px;
+    padding: 10px 0;
+  }
+  .control-btns img {
+    height: 64px;
+  }
+  .songName {
+    font-size: 32px;
+    width: 16em;
+  }
+  .currentTime {
+    font-size: 32px;
+    width: 8em;
+  }
+  .volume-controls img {
+    height: 64px;
+  }
+  .allSongs {
+    height: 56em;
+  }
+  .songs-card {
+    height: 8em;
+  }
+  .info {
+    font-size: 24px;
+    width: 12em;
+  }
+  .play-song-card p {
+    font-size: 24px;
+  }
+  .play-song-card img {
+    height: 42px;
+  }
+  .song-details img {
+    height: 76px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .left-section {
+    width: 26vw;
+    height: 34em;
+  }
+  .allSongs ul {
+    height: 70vh;
+  }
+  .songs-card {
+    height: 4em;
+  }
+  .info {
+    font-size: 13px;
+    width: 12em;
+  }
+  .play-song-card p {
+    font-size: 14px;
+  }
+  .song-details img {
+    height: 38px;
+  }
+  .play-song-card img {
+    height: 20px;
+  }
+  .library-section h2 {
+    font-size: 2em;
+  }
+  .right-section {
+    width: 86vw;
+    height: 34em;
+  }
+  .control-panel {
+    width: 71vw;
+    bottom: 4px;
+    height: 5em;
+    justify-content: space-evenly;
+  }
+  .your-playlist h2 {
+    font-size: 2em;
+  }
+  .control-btns img {
+    height: 32px;
+  }
+  .songName {
+    font-size: 18px;
+    width: 16em;
+    padding: 0 14px;
+  }
+  .currentTime {
+    font-size: 18px;
+    width: 8em;
+  }
+  .volume-controls img {
+    height: 32px;
+  }
+  .allSongs {
+    height: 26em;
+  }
+  .playlist-card img {
+    height: 84%;
+    object-fit: cover;
+  }
+
+  .playlist-card p {
+    font-size: 18px;
+    padding: 0px 0;
+  }
+  .playlist-card {
+    width: 9em;
+    height: 11em;
+  }
+}
+
+@media (max-width: 1024px) {
+  .allSongs ul {
+    height: 70vh;
+  }
+  .library-section h2 {
+    font-size: 20px;
+  }
+  .your-playlist h2 {
+    font-size: 20px;
+  }
+  .control-btns img {
+    height: 20px;
+  }
+  .songName {
+    font-size: 12px;
+    width: 15em;
+  }
+  .currentTime {
+    font-size: 12px;
+    width: 7em;
+  }
+  .control-panel-details {
+    gap: 70px;
+  }
+  .volume-controls img {
+    height: 22px;
+  }
+  .volume-controls {
+    width: 12em;
+  }
+  .control-btns {
+    width: 8em;
+  }
+  .allSongs {
+    height: 26em;
+  }
+  .playlist-card img {
+    height: 84%;
+    object-fit: cover;
+  }
+  .info {
+    font-size: 10px;
+    width: 12em;
+  }
+  .song-details img {
+    height: 32px;
+  }
+  .play-song-card p {
+    font-size: 11px;
+  }
+  .play-song-card img {
+    height: 16px;
+  }
+  .songs-card {
+    height: 3em;
+  }
+  .left-section {
+    width: 26vw;
+    height: 29.3em;
+  }
+  .playlist-card {
+    width: 7em;
+    height: 9em;
+  }
+  .playlist-card p {
+    font-size: 14px;
+    padding: 0px 0;
+  }
+  .right-section {
+    width: 86vw;
+    height: 29.3em;
+  }
+  .control-panel {
+    width: 69vw;
+    bottom: 4px;
+    height: 4em;
+    justify-content: space-evenly;
+  }
+}
+
+@media (max-width: 768px) {
+  .burgerbtn {
+    display: inline;
+  }
+  .allSongs ul {
+    height: 70vh;
+    padding: 0 12px;
+  }
+  .library-section h2 {
+    font-size: 20px;
+  }
+  .your-playlist h2 {
+    font-size: 20px;
+  }
+  .control-btns img {
+    height: 28px;
+  }
+  .songName {
+    font-size: 12px;
+    width: 15em;
+  }
+  .currentTime {
+    font-size: 12px;
+    width: 7em;
+  }
+  .control-panel-details {
+    gap: 48px;
+  }
+  .volume-controls img {
+    height: 22px;
+  }
+  .volume-controls {
+    width: 12em;
+  }
+  .control-btns {
+    width: 8em;
+  }
+  .allSongs {
+    height: 26em;
+  }
+  .playlist-card img {
+    height: 84%;
+    object-fit: cover;
+  }
+  .info {
+    font-size: 14px;
+    width: 12em;
+  }
+  .song-details img {
+    height: 32px;
+  }
+  .play-song-card p {
+    font-size: 11px;
+  }
+  .play-song-card img {
+    height: 16px;
+  }
+  .songs-card {
+    height: 3em;
+  }
+  .left-section {
+    width: 44vw;
+    height: 29em;
+    position: absolute;
+    left: -150%;
+    z-index: 100;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .left-section-toggle {
+    left: 2%;
+  }
+  .playlist-card {
+    width: 7em;
+    height: 9em;
+  }
+  .playlist-card p {
+    font-size: 14px;
+    padding: 0px 0;
+  }
+  .right-section {
+    width: 95vw;
+    height: 29.3em;
+  }
+  .control-panel {
+    width: 94vw;
+    bottom: 4px;
+    height: 4em;
+    justify-content: space-evenly;
+  }
+}
+
+@media (max-width: 427px) {
+  .left-section {
+    width: 93vw;
+    height: 42em;
+    position: absolute;
+    left: -150%;
+    z-index: 100;
+    transition: all 0.3s ease-in-out;
+  }
+  .allSongs ul {
+    height: 112vh;
+  }
+
+  .left-section-toggle {
+    left: 2%;
+  }
+  .main {
+    width: 36em;
+  }
+  .right-section {
+    width: 135vw;
+    height: 44em;
+  }
+  .songs-card {
+    height: 6em;
+  }
+  .song-details img {
+    height: 58px;
+  }
+  .play-song-card p {
+    font-size: 18px;
+  }
+  .play-song-card img {
+    height: 28px;
+  }
+  .info {
+    font-size: 16px;
+    width: 11em;
+  }
+  .control-panel {
+    width: 132vw;
+    bottom: 4px;
+    height: 11em;
+    justify-content: space-evenly;
+    position: fixed;
+  }
+  .control-panel-details {
+    flex-direction: column;
+    gap: 18px;
+  }
+  .songName {
+    font-size: 20px;
+    width: 24em;
+  }
+  .songdetails {
+    width: 31em;
+    text-align: center;
+  }
+  .control-btns {
+    width: 11em;
+  }
+  .control-btns img {
+    height: 52px;
+  }
+  .seekbar hr {
+    height: 10px;
+    background-color: white;
+    border-radius: 40px;
+    cursor: pointer;
+  }
+  .seekbar-ball {
+    width: 18px;
+    height: 18px;
+    background-color: #b7b0b0;
+    border-radius: 50px;
+    position: absolute;
+    /* left: 2px; */
+    bottom: -3px;
+    transition: all 0.2s ease-in;
+  }
+  .playlistAlign {
+    width: 35em;
+    height: 32em;
+    overflow: auto;
+  }
+  .playlist-card {
+    width: 15em;
+    height: 20em;
+  }
+  .playlist-card img {
+    height: 84%;
+    object-fit: cover;
+  }
+  .playlist-card p {
+    font-size: 25px;
+    padding: 0px 0;
+  }
+  .time-duration {
+    display: none;
+  }
+}
+
+@media (max-width: 320px) {
+  .left-section {
+    width: 93vw;
+    height: 42em;
+    position: absolute;
+    left: -150%;
+    z-index: 100;
+    transition: all 0.3s ease-in-out;
+  }
+  .allSongs ul {
+    height: 112vh;
+  }
+
+  .left-section-toggle {
+    left: 2%;
+  }
+  .main {
+    width: 36em;
+  }
+  .right-section {
+    width: 174vw;
+    height: 76em;
+  }
+  .songs-card {
+    height: 6em;
+  }
+  .song-details img {
+    height: 58px;
+  }
+  .play-song-card p {
+    font-size: 18px;
+  }
+  .play-song-card img {
+    height: 28px;
+  }
+  .your-playlist h2 {
+    font-size: 34px;
+  }
+  .burgerbtn img {
+    height: 48px;
+  }
+  .info {
+    font-size: 16px;
+    width: 11em;
+  }
+  .control-panel {
+    width: 175vw;
+    height: 14em;
+    justify-content: space-evenly;
+    position: fixed;
+  }
+  .control-panel-details {
+    flex-direction: column;
+    gap: 18px;
+  }
+  .songName {
+    font-size: 20px;
+    width: 24em;
+  }
+  .songdetails {
+    width: 31em;
+    text-align: center;
+  }
+  .control-btns {
+    width: 11em;
+  }
+  .control-btns img {
+    height: 52px;
+  }
+  .seekbar hr {
+    height: 10px;
+    background-color: white;
+    border-radius: 40px;
+    cursor: pointer;
+  }
+  .seekbar-ball {
+    width: 18px;
+    height: 18px;
+    background-color: #b7b0b0;
+    border-radius: 50px;
+    position: absolute;
+    /* left: 2px; */
+    bottom: -3px;
+    transition: all 0.2s ease-in;
+  }
+  .playlistAlign {
+    width: 35em;
+    height: 56em;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0 16em 0;
+  }
+  .playlist-card {
+    width: 32em;
+    height: 53em;
+  }
+  .playlist-card img {
+    height: 92%;
+    object-fit: cover;
+  }
+  .playlist-card p {
+    font-size: 40px;
+    padding: 0px 0;
+  }
+  .time-duration {
+    display: none;
+  }
+}

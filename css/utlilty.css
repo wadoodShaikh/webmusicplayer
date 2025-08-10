@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+::selection {
+  background-color: rgb(30, 30, 150);
+}
+.fira-sans-regular {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-none {
+  list-style-type: none;
+}
+.filter-bright {
+  filter: brightness(5);
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.h-38 {
+  height: 38px;
+}
+.h-30 {
+  height: 30px;
+}
+.h-22 {
+  height: 22px;
+}
+
+.gap-8 {
+  gap: 8px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e1e;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 5px;
+  border: 2px solid #1e1e1e;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #777;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
