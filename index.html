@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="shortcut icon" href="images/tab-icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive-style.css" />
+    <link rel="stylesheet" href="css/utlilty.css" />
+  </head>
+
+  <body>
+    <div class="container fira-sans-regular">
+      <div class="main flex-row">
+        <div class="left-section">
+          <div class="library-section">
+            <h2>Your Songs</h2>
+          </div>
+          <div class="allSongs">
+            <ul class="list-none">
+              <!-- <li>
+                <div class="songs-card flex-row fs-12">
+                  <div class="song-details flex-row align-center gap-8">
+                    <img
+                      src="images/music-tune.svg"
+                      class="filter-bright h-38"
+                      alt="music-tune"
+                    />
+                    <p>Live Long Life By Faiz Khanzade</p>
+                  </div>
+                  <div class="play-song-card flex-row align-center gap-8">
+                    <p>Play</p>
+                    <img
+                      src="images/play-song.svg"
+                      class="filter-bright h-22"
+                      alt="play-song"
+                    />
+                  </div>
+                </div>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+        <div class="right-section">
+          <div class="your-playlist flex-row">
+            <h2>Your Playlist</h2>
+            <div class="burgerbtn" id="burger">
+              <img
+                src="images/menu.svg"
+                alt="toggle Menu "
+                style="filter: invert(1)"
+              />
+            </div>
+          </div>
+          <div class="playlist-folder">
+            <div class="playlistAlign" id="playlist"></div>
+          </div>
+
+          <div class="control-panel flex-col">
+            <div class="control-panel-details flex-row align-center">
+              <div class="songdetails">
+                <p class="songName">Play a Song</p>
+              </div>
+              <div class="control-btns">
+                <img
+                  src="images/previous.svg"
+                  class="filter-bright h-38 cursor-pointer"
+                  alt="previous"
+                  id="previous"
+                />
+                <img
+                  src="images/play.svg"
+                  class="filter-bright h-38 cursor-pointer"
+                  alt="start"
+                  id="play"
+                />
+                <img
+                  src="images/next.svg"
+                  class="filter-bright h-38 cursor-pointer"
+                  alt="next"
+                  id="next"
+                />
+              </div>
+              <div class="time-duration flex-row align-center">
+                <p class="currentTime">00:00</p>
+                <div
+                  class="volume-controls flex-row align-center gap-8 cursor-pointer"
+                >
+                  <img
+                    src="images/volume-full.svg"
+                    class="filter-bright h-30"
+                    alt="volume-full"
+                  />
+                  <input
+                    type="range"
+                    class="cursor-pointer"
+                    id="volume-level"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="control-panel-seekbar">
+              <div class="seekbar">
+                <hr class="target-seekbar" />
+                <div class="seekbar-ball cursor-pointer"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script/script.js"></script>
+</html>
