@@ -418,6 +418,7 @@
   }
 }
 
+
 @media (max-width: 400px) {
   .left-section {
     width: 74vw;
@@ -435,7 +436,7 @@
     left: 2%;
   }
   .main {
-    width: 36em;
+    width: 22em;
   }
   .right-section {
     width: 90vw;
@@ -458,7 +459,7 @@
   }
   .info {
     font-size: 11px;
-    width: 11em;
+    width: 6em;
   }
   .control-panel {
     width: 90vw;
@@ -525,5 +526,3 @@
     display: none;
   }
 }
-
-
