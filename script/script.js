@@ -2,7 +2,7 @@
 let currentSong = new Audio();
 let songs;
 let currentFolder;
-play.src = "/images/pause.svg";
+play.src = "images/pause.svg";
 
 // Function to get songs from the songs folder
 async function getSongs(folder) {
@@ -59,7 +59,7 @@ async function getSongs(folder) {
     e.addEventListener("click", (element) => {
       console.log(e.querySelector(".info").innerHTML);
       playMusic(e.querySelector(".info").innerHTML);
-      play.src = "/images/play.svg";
+      play.src = "images/play.svg";
     });
   });
 
@@ -116,7 +116,7 @@ async function displayAlbums() {
     e.addEventListener("click", async (item) => {
       songs = await getSongs(`${item.currentTarget.dataset.folder}`);
       playMusic(songs[0]);
-      play.src = "/images/play.svg";
+      play.src = "images/play.svg";
     });
   });
 }
@@ -132,10 +132,10 @@ async function main() {
   // Attach event listener to the previous play and next control buttons
   play.addEventListener("click", () => {
     if (currentSong.paused) {
-      play.src = "/images/play.svg";
+      play.src = "images/play.svg";
       currentSong.play();
     } else {
-      play.src = "/images/pause.svg";
+      play.src = "images/pause.svg";
       currentSong.pause();
     }
   });
@@ -146,7 +146,7 @@ async function main() {
     );
     if (index - 1 >= 0) {
       playMusic(songs[index - 1]);
-      play.src = "/images/play.svg";
+      play.src = "images/play.svg";
     }
   });
   // Event Listener for the next button
@@ -157,7 +157,7 @@ async function main() {
     );
     if (index + 1 < songs.length - 0) {
       playMusic(songs[index + 1]);
-      play.src = "/images/play.svg";
+      play.src = "images/play.svg";
     }
   });
 
@@ -206,5 +206,6 @@ function runOnDesktop(e) {
 
 runOnDesktop(desktopQuery);
 desktopQuery.addEventListener("change", runOnDesktop);
+
 
 
