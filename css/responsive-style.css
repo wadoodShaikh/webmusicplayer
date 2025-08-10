@@ -418,7 +418,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 400px) {
   .left-section {
     width: 93vw;
     height: 42em;
@@ -528,3 +528,4 @@
     display: none;
   }
 }
+
