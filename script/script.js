@@ -7,7 +7,7 @@ play.src = "images/pause.svg";
 // Function to get songs from the songs folder
 async function getSongs(folder) {
   currentFolder = folder;
-  let data = await fetch(`https://github.com/wadoodShaikh/webmusicplayer/tree/main/${folder}/`);
+  let data = await fetch(`https://github.com/wadoodShaikh/webmusicplayer/tree/main/${folder}`);
   let response = await data.text();
   let div = document.createElement("div");
   div.innerHTML = response;
@@ -206,6 +206,7 @@ function runOnDesktop(e) {
 
 runOnDesktop(desktopQuery);
 desktopQuery.addEventListener("change", runOnDesktop);
+
 
 
 
