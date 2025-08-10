@@ -144,30 +144,34 @@ async function main() {
       }
     });
   }
+// previous button
+if (previous) {
+  previous.addEventListener("click", () => {
+    const currentFileName = decodeURIComponent(
+      currentSong.src.split(`${currentFolder}/`).pop()
+    );
+    const index = songs.indexOf(currentFileName);
+    if (index > 0) {
+      playMusic(songs[index - 1]);
+      if (play) play.src = "images/play.svg";
+    }
+  });
+}
 
-  // previous button (same logic, using currentFolder)
-  if (previous) {
-    previous.addEventListener("click", () => {
-      const currentFileName = currentSong.src.split(`${currentFolder}/`).pop();
-      const index = songs.indexOf(currentFileName);
-      if (index - 1 >= 0) {
-        playMusic(songs[index - 1]);
-        if (play) play.src = "images/play.svg";
-      }
-    });
-  }
+// next button
+if (next) {
+  next.addEventListener("click", () => {
+    const currentFileName = decodeURIComponent(
+      currentSong.src.split(`${currentFolder}/`).pop()
+    );
+    const index = songs.indexOf(currentFileName);
+    if (index >= 0 && index < songs.length - 1) {
+      playMusic(songs[index + 1]);
+      if (play) play.src = "images/play.svg";
+    }
+  });
+}
 
-  // next button
-  if (next) {
-    next.addEventListener("click", () => {
-      const currentFileName = currentSong.src.split(`${currentFolder}/`).pop();
-      const index = songs.indexOf(currentFileName);
-      if (index + 1 < songs.length) {
-        playMusic(songs[index + 1]);
-        if (play) play.src = "images/play.svg";
-      }
-    });
-  }
 
   // timeupdate handler (unchanged)
   currentSong.addEventListener("timeupdate", () => {
@@ -235,3 +239,4 @@ function applyMobileStyle(e) {
 }
 applyMobileStyle(mq);
 mq.addEventListener("change", applyMobileStyle);
+
