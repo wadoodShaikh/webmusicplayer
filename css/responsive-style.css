@@ -474,11 +474,10 @@
   }
   .songName {
     font-size: 20px;
-    width: 24em;
+    width: 16em;
   }
   .songdetails {
-    width: 31em;
-    text-align: center;
+    width: 21em;
   }
   .control-btns {
     width: 11em;
@@ -526,4 +525,5 @@
     display: none;
   }
 }
+
 
