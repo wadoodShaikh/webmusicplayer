@@ -38,26 +38,26 @@ This app lets you choose different music folders, browse album covers, and play 
 
 ## 📁 Folder Structure
 
-web-music-player/
-├── index.html
-├── css/
-│ ├── style.css
-│ ├── utility.css
-│ └── responsive-style.css
-├── js/
-│ └── script.js
-├── songs/
-│ ├── Album1/
-│ │ ├── song1.mp3
-│ │ ├── song2.mp3
-│ ├── Album2/
-│ │ └── ...
-├── images/
-│ ├── play.svg
-│ ├── pause.svg
-│ ├── next.svg
-│ └── ...
-├── README.md
+web-music-player/<br>
+├── index.html<br>
+├── css/<br>
+│ ├── style.css<br>
+│ ├── utility.css<br>
+│ └── responsive-style.css<br>
+├── js/<br>
+│ └── script.js<br>
+├── songs/<br>
+│ ├── Album1/<br>
+│ │ ├── song1.mp3<br>
+│ │ ├── song2.mp3<br>
+│ ├── Album2/<br>
+│ │ └── ...<br>
+├── images/<br>
+│ ├── play.svg<br>
+│ ├── pause.svg<br>
+│ ├── next.svg<br>
+│ └── ...<br>
+├── README.md<br>
 
 
 
