@@ -429,7 +429,7 @@
     transition: all 0.3s ease-in-out;
   }
   .allSongs ul {
-    height: 112vh;
+    height: 74vh;
   }
 
   .left-section-toggle {
@@ -526,3 +526,4 @@
     display: none;
   }
 }
+
