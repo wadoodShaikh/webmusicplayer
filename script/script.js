@@ -148,7 +148,7 @@ async function main() {
 if (previous) {
   previous.addEventListener("click", () => {
     const currentFileName = decodeURIComponent(
-      currentSong.src.split(`${currentFolder}/`).pop()
+      currentSong.src.split(`${currentFolder}/`).slice(-1)[0]
     );
     const index = songs.indexOf(currentFileName);
     if (index > 0) {
@@ -162,7 +162,7 @@ if (previous) {
 if (next) {
   next.addEventListener("click", () => {
     const currentFileName = decodeURIComponent(
-      currentSong.src.split(`${currentFolder}/`).pop()
+      currentSong.src.split(`${currentFolder}/`).slice(-1)[0]
     );
     const index = songs.indexOf(currentFileName);
     if (index >= 0 && index < songs.length - 1) {
@@ -239,4 +239,5 @@ function applyMobileStyle(e) {
 }
 applyMobileStyle(mq);
 mq.addEventListener("change", applyMobileStyle);
+
 
